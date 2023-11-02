@@ -10,7 +10,7 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import com.example.mad_practical_10_21012011111.databinding.ActivityMapsBinding
+import com.yugpatel.mad_pr_10_21012011111.databinding.ActivityMapsBinding
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap

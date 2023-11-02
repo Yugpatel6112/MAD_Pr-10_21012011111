@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.yugpatel.mad_pr_10_21012011111"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.yugpatel.mad_pr_10_21012011111"
@@ -15,6 +15,9 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 
     buildTypes {
